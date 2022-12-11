@@ -7,20 +7,141 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  border: 1px solid red;
 }
 
+/**блок header **/
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  display: flex;
+  background-color: #f2f2f2;
+  position: relative;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.logo {
+  color: #000000;
+  width: 228px;
+  height: 32px;
+  z-index: 2;
+  /* border: 1px solid red; */
+
+}
+
+.logo_place_header {
+  position: absolute;
+  left: 64px;
+  top: 30px;
+}
+
+.header__title {
+  width: 730px;
+  left: 64px;
+  position: absolute;
+  font-size: 102px;
+  font-weight: 600;
+  color: #000000;
+  z-index: 2;
+  line-height: 96px;
+  /* border: 1px solid red; */
+}
+
+.header__subtitle {
+  position: absolute;
+  color: #000000;
+  width: 388px;
+  left: 64px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  z-index: 2;
+  margin: 0;
+  bottom: 30px;
+  /* border: 1px solid red; */
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  /* border: 1px solid red; */
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  background-color: #2f80ed;
+  z-index: 0;
 }
+
+/**блок description **/
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns {
+  margin-top: 100px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: stretch; */
+  border: 1px solid red;
+}
+
+.two-colums__brief {
+  color:#2f80ed;
+  width: 175px;
+  align-self: stretch;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0;
+  border: 1px solid green;
+}
+
+.two-colums__main-text{
+ color:#000000;
+ font-size: 24px;
+ font-weight: 400;
+ line-height: 34px;
+ width: 80%;
+ min-width: 784px;
+ flex-direction: column;
+ border: 1px solid red;
+}
+
+.two-colums__paragraph {
+  border: 1px solid red;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.two-colums__span-accent {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.two-colums__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
