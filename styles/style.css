@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   border: 1px solid red;
 }
 
@@ -29,7 +29,6 @@
   height: 32px;
   z-index: 2;
   /* border: 1px solid red; */
-
 }
 
 .logo_place_header {
@@ -100,34 +99,33 @@
   width: 80%;
   display: flex;
   justify-content: space-between;
-  /* align-items: stretch; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .two-colums__brief {
-  color:#2f80ed;
+  color: #2f80ed;
   width: 175px;
   align-self: stretch;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2;
   margin: 0;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
-.two-colums__main-text{
- color:#000000;
- font-size: 24px;
- font-weight: 400;
- line-height: 34px;
- width: 80%;
- min-width: 784px;
- flex-direction: column;
- border: 1px solid red;
+.two-colums__main-text {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  width: 80%;
+  min-width: 784px;
+  flex-direction: column;
+  /* border: 1px solid red; */
 }
 
 .two-colums__paragraph {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0;
   margin-bottom: 30px;
 }
@@ -142,6 +140,70 @@
   margin-bottom: 0;
 }
 
+/* Блок digits */
+.digits {
+  border: 1px solid green;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.15;
+  width: 60%;
+  margin: 100px 0 0;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.section-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  width: 60%;
+  margin: 20px 0 0;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.table {
+  max-width: 1100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+  border: 1px solid violet;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 20px;
+  /* border: 1px solid orangered; */
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  border: 1px solid blue;
+}
+
+.table__text:nth-of-type(1) {
+  margin-bottom: 20px;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
