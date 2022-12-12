@@ -181,7 +181,7 @@
 .table__cell {
   width: 250px;
   margin-top: 60px;
-  border: 1px solid violet;
+  /* border: 1px solid violet; */
 }
 
 .table__heading {
@@ -198,7 +198,7 @@
   font-size: 18px;
   font-weight: 400;
   margin: 0;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .table__text:nth-of-type(1) {
