@@ -1,0 +1,11 @@
+.techniques {
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  /* outline: 1px solid red; */
+}
+
+
+
