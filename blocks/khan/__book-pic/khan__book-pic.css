@@ -2,6 +2,7 @@
   width: 620px;
   height: 608px;
   margin-right: 48px;
-  object-fit: fill;
+  object-fit: cover;
+  object-position: top;
   /* outline: 5px solid blue; */
 }
