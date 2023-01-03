@@ -1,0 +1,7 @@
+.footer__column-links {
+  padding-left: 0;
+  margin: 20px 0 16px;
+  list-style-type: none;
+  color: white;
+  /* outline: 1px dashed green; */
+}
