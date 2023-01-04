@@ -1,4 +1,8 @@
 .video__iframes {
   margin: 50px auto -60px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
   /* outline: 5px solid green; */
 }

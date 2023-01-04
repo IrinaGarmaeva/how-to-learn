@@ -6,11 +6,10 @@
   font-size: 18px;
   font-weight: 400;
   color: white;
-  opacity: 1;
+  transition: opacity 0.3s;
   /* outline: 1px dashed blue; */
 }
 
 .footer__column-link:hover {
   opacity: 0.6;
-  transition: opacity 2s linear;
 }
