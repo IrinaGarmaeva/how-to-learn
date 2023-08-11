@@ -1,14 +1,21 @@
-# Учебный проект от Яндекс Практикум "Научиться учиться"
-#### Выполнила Гармаева Ирина
-#### Простой одностраничный сайт о методиках обучения
+# Edicational purpose project "How to Learn" from [Yandex Practicum](https://practicum.yandex.ru/) Web-developer course.
 
-## Использованные технологии
+## Description
+
+Educational HTML and CSS project for practicing flexbox, positioning, animations, BEM methodology, HTML semantics. A website about learning methodologies with images and videos.
+
+This project is hosted on [Vercel](https://how-to-learn-xi.vercel.app/)
+
+## Technologies
 * HTML
+* BEM
 * CSS
+* Flexbox
+* GRID
 
-## Описание проекта
-Учебный проект по верстке для отработки знаний html, css: флекс-бокса, позиционирования,анимации, методологии БЭМ, семантики html. Сайт о методиках обучения с картинками и видео.
 
-## Планы по доработке
-* Адаптировать под разные устройства
-* Указать реальные ссылки
+## Layouts
+
+* [Brif 1](https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf)
+* [Brif 2](https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf)
+
