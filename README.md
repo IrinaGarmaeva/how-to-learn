@@ -1,4 +1,4 @@
-# Edicational purpose project "How to Learn" from [Yandex Practicum](https://practicum.yandex.ru/) Web-developer course.
+# Educational purpose project "How to Learn" from [Yandex Practicum](https://practicum.yandex.ru/) Web-developer course.
 
 ## Description
 
